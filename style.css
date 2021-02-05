@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+@font-face {
+  font-family: 'bebas';
+  src: url(../fonts/Bebas.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  
+}
+.hero{
+  background-image: url(../img/bg\ image\ 1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.hero_content{
+  
+  font-family:bebas ;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero_content h1{
+  font-weight: 300;
+  font-size: 100px;
+  color: white;
+}
+.hero_content h2{
+  font-weight: 300;
+  font-size: 30px;
+  padding-top: 10px;
+  color: white;
+}
+.hero_content a{
+  
+  padding:10px 5px 10px 5px;
+  text-decoration: none;
+  margin-top:30px;
+  background-color: orange;
+  color: black;
+}
+
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.logo_platform{
+  margin-top: 30px;
+}
+.xbox{
+  padding-right: 20px;
+}
+.nav_links{
+  margin: 30px;
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  margin-top: 10px;
+}
+.nav_links a{
+  text-decoration: none;
+  color: white;
+}
